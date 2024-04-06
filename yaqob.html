@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nablus</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">نابلس</a>
+        <nav class="navigation">
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="yaqob_eng.html">English</a>
+        </nav>
+    </header>
+
+
+    <section class="cards" id="services">
+        <h2 class="title" style="color:rgb(0, 201, 137) ;">مرحبا في كنيسة بئر يعقوب</h2><br><br><br>
+        <h2 class="title">ماهي كنيسة بئر يعقوب </h2>
+        <p style="text-align: center;">
+            تعد كنيسة بئر يعقوب اليوم مكاناً هاماً لكلٍّ من المسيحيين والمسلمين نظراً لأهمية تاريخها ومكانتها الدينية وهي مكان لجذب سياح فلسطين من جميع أطراف العالم. ويعود سبب تسمية كنيسة بئر يعقوب بهذا الاسم نظراً لاحتوائها على بئر يعقوب المذكور في سفر التكوين الإصحاح 33. وقد حدث في منطقة بئر يعقوب حديث بين السيد المسيح والمرأة السامرية التي تعرف باسم "فوتيني"، ويُذكر لقاء السامرية مع المسيح في العهد الجديد إنجيل القديس يوحنا الإصحاح 4، حيث ذكر أن المسيح أخذ هناك قسطاً من الراحة وطلب من المرأة شربة ماء. ويُقال أن الجرة التي أُخذ منها الماء لا تزال محفوظة داخل الكنيسة في بيت من الزجاج، وتحتوي الكنيسة أيضاً على العديد من الآثار والأيقونات التاريخية.        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">صور من كنيسة بئر يعقوب</h2>
+        <div class="image-grid">
+            <div class="grid-item">
+                <img src="https://i.imgur.com/9YyuzMC.png" alt="صورة 1">
+            </div>
+            <div class="grid-item">
+                <img src="https://i.imgur.com/9YyuzMC.png" alt="صورة 2">
+            </div>
+            <div class="grid-item">
+                <img src="https://i.imgur.com/9YyuzMC.png" alt="صورة 3">
+            </div>
+            <div class="grid-item">
+                <img src="https://i.imgur.com/9YyuzMC.png" alt="صورة 4">
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main {
+    background-image: url("https://.png");
+}
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* يجعل الصور تظهر في عمودين */
+            grid-gap: 10px; /* تحديد مسافة بين الصور */
+        }
+        .grid-item {
+            border: 2px solid #ddd; /* إضافة حدود للصور */
+            padding: 10px; /* إضافة هامش داخلي للصور */
+            text-align: center; /* محاذاة النص في وسط الصور */
+        }
+        .grid-item img {
+            width: 100%; /* جعل جميع الصور بنفس العرض */
+            height: auto; /* حجم الصور يعتمد على العرض */
+        }
+    </style>
+    <section class="cards contact" id="contact">
+        <h2 class="title">الخريطة</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.452720186827!2d35.285367234731225!3d32.209548684771825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502cfb5c5ec5b1f%3A0x2f7c4982b97c8729!2sSample%20Location!5e0!3m2!1sen!2s!4v1648492439826!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <style>
+        .map-container {
+            overflow:hidden;
+            position:relative;
+            height:0;
+            padding-bottom:56.25%;
+        }
+        .map-container iframe {
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+        </style>
+
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
